@@ -1,0 +1,40 @@
+div.slide-left h1 {
+  animation: slide-left 3s;
+}
+div.slide-left h3 {
+  animation: slide-left 6s;
+}
+div.slide-left p {
+  animation: slide-left 1s;
+}
+div.slide-left h4 {
+  animation: slide-left 10s;
+}
+@keyframes slide-left {
+  from {
+	margin-left: 100%;
+  }
+  to{
+	margin-left: 0%;
+  }
+}
+
+
+li.slide-right {
+	animation: 10s slide-right;
+}
+div.slide-right h3 {
+  animation: 5s slide-right;
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+    width: 110%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
