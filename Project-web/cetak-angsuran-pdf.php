@@ -5,14 +5,13 @@ define('_MPDF_PATH','mpdf60/');
 //define("_JPGRAPH_PATH", '../mpdf60/graph_cache/src/');
 
 //define("_JPGRAPH_PATH", '../jpgraph/src/'); 
- 
 include(_MPDF_PATH . "mpdf.php");
 //include(_MPDF_PATH . "graph.php");
 
 //include(_MPDF_PATH . "graph_cache/src/");
 
-$mpdf=new mPDF('utf-8', 'A3'); // Create new mPDF Document
- 
+$mpdf=new mPDF('utf-8', 'A3-L'); // Create new mPDF Document
+
 //Beginning Buffer to save PHP variables and HTML tags
 ob_start(); 
 

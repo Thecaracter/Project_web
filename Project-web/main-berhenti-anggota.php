@@ -17,7 +17,7 @@ $data = mysqli_fetch_array($tampil);
       <div class="row">
         <div class="col-xs-12">
           <h2 class="page-header">
-            <i class="fa fa-globe"></i> AdminLTE, Inc.
+            <i class="fa fa-globe"></i> Admin Koperasi Rizqi
             <small class="pull-right"><?php echo date('d-m-Y') ?></small>
           </h2>
         </div>
